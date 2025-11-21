@@ -13,8 +13,7 @@ app.add_middleware(
 )
 
 # Your Gemini 3 Pro API Key
-GEMINI_API_KEY = os.getenv("AIzaSyAwRIm4-0Mnpe3kAGluWisZrKTT4aX54mY")
-
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # Gemini 3.0 Pro Model Name
 MODEL = "models/gemini-3.0-flash"
 
